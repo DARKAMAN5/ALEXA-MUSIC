@@ -19,25 +19,25 @@ async def cbstart(_, query: CallbackQuery):
             [ 
                 [
                     InlineKeyboardButton(
-                        "ǟɖɖ ʍɛ ȶօ ʏօʊʀ ɢʀօʊք", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "♨️ǟɖɖ ʍɛ ȶօ ʏօʊʀ ɢʀօʊք♨️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "ɦօա ȶօ ʊֆɛ ʍɛ", callback_data="cbhowtouse")
+                        "✨ɦօա ȶօ ʊֆɛ ʍɛ✨", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "ƈօʍʍǟʍɖֆ", callback_data="cbcmds"
+                         "🥳ƈօʍʍǟʍɖֆ🥳", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "ƈʀɛǟȶɛʀ", url=f"https://t.me/{OWNER_NAME}")
+                        "☣️ƈʀɛǟȶɛʀ☣️", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "ֆʊքքօʀȶ ɢʀօʊք", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🥰ֆʊքքօʀȶ ɢʀօʊք🥰", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "ʊքɖǟȶɛֆ ƈɦǟռռɛʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "🇮🇳ʊքɖǟȶɛֆ ƈɦǟռռɛʟ🇮🇳", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "ǟʟɛӼǟ ʀօɮօȶ", url="https://github.com/levina-lab/veezmusic/wiki/Veez-Music-Wiki's")
+                        "🖱️ǟʟɛӼǟ ʀօɮօȶ🖱️", url="https://t.me/ALEXA_MANAGER_ROBOT")
                     )
                 ]
             ]
@@ -58,33 +58,33 @@ async def cbhelp(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟֆɨƈ ƈʍɖ", callback_data="cbbasic"
+                        "♨️ɮǟֆɨƈ ƈʍɖ♨️", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "ǟɖʋǟռƈɛɖ ƈʍɖ", callback_data="cbadvanced"
+                        "✨ǟɖʋǟռƈɛɖ ƈʍɖ✨", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ǟɖʍɨռ ƈʍɖ", callback_data="cbadmin"
+                        "🥳ǟɖʍɨռ ƈʍɖ🥳", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "ֆʊɖօ ƈʍɖ", callback_data="cbsudo"
+                        "🥰ֆʊɖօ ƈʍɖ🥰", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "օառɛʀ ƈʍɖ", callback_data="cbowner"
+                        "☣️օառɛʀ ƈʍɖ☣️", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ƒʊռ ƈʍɖ", callback_data="cbfun"
+                        "🖱️ƒʊռ ƈʍɖ🖱️", callback_data="cbfun"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ɮզƈӄ ȶօ ɦɛʟք", callback_data="cbguide"
+                        "🗑️ɮզƈӄ ȶօ ɦɛʟք🗑️", callback_data="cbguide"
                     )
                 ]
             ]
@@ -125,7 +125,7 @@ async def cbbasic(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbhelp"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -150,7 +150,7 @@ async def cbadvanced(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbhelp"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -184,7 +184,7 @@ async def cbadmin(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbhelp"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -208,7 +208,7 @@ async def cbsudo(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbhelp"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -234,7 +234,7 @@ async def cbowner(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbhelp"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -259,7 +259,7 @@ async def cbfun(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbhelp"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbhelp"
                     )
                 ]
             ]
@@ -282,12 +282,12 @@ async def cbguide(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ƈօʍʍǟռɖ ʟɨֆȶ", callback_data="cbhelp"
+                        "🖱️ƈօʍʍǟռɖ ʟɨֆȶ🖱️", callback_data="cbhelp"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗑ƈʟօֆɛ", callback_data="close"
+                        "🗑ƈʟօֆɛ🗑️", callback_data="close"
                     )
                 ]
             ]
@@ -373,7 +373,7 @@ and you can also set a time for the ban and mute penalties for members in your g
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbback"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbback"
                     )
                 ]
             ]
@@ -403,7 +403,7 @@ async def cbdelcmds(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɢօ ɮǟƈӄ", callback_data="cbback"
+                        "🗑️ɢօ ɮǟƈӄ🗑️", callback_data="cbback"
                     )
                 ]
             ]
@@ -423,33 +423,33 @@ async def cbhelps(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟֆɨƈ ƈʍɛ", callback_data="cbbasic"
+                        "♨️ɮǟֆɨƈ ƈʍɖ♨️", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "ǟɖʋǟռƈɛɖ ƈʍɖ", callback_data="cbadvanced"
+                        "✨ǟɖʋǟռƈɛɖ ƈʍɖ✨", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ǟɖʍɨռ ƈʍɖ", callback_data="cbadmin"
+                        "🥳ǟɖʍɨռ ƈʍɖ🥳", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "ֆʊɖօ ƈʍɖ", callback_data="cbsudo"
+                        "🥰ֆʊɖօ ƈʍɖ🥰", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "օառɛʀ ƈʍɖ", callback_data="cbowner"
+                        "☣️օառɛʀ ƈʍɖ☣️", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ƒʊռ ƈʍɖ", callback_data="cbfun"
+                        "🖱️ƒʊռ ƈʍɖ🖱️", callback_data="cbfun"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbstart"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbstart"
                     )
                 ]
             ]
@@ -472,7 +472,7 @@ async def cbguides(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟƈӄ", callback_data="cbstart"
+                        "🗑️ɮǟƈӄ🗑️", callback_data="cbstart"
                     )
                 ]
             ]
