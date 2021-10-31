@@ -10,10 +10,10 @@ from handlers.play import cb_admin_check
 @Client.on_callback_query(filters.regex("cbstart"))
 async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""<b>✨ **Welcome user, i'm {query.message.from_user.mention}** \n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝙰𝙻𝙻𝙾𝚆 𝚈𝙾𝚄 𝚃𝙾 𝙿𝙻𝙰𝚈 𝙼𝚄𝚂𝙸𝙲 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙾𝙿 𝙶𝚁𝙾𝚄𝙿 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 @DARKAMAN !**
+        f"""<b>✨ **𝚆𝙴𝙻𝙲𝙾𝙼𝙴, 𝙸'𝙼 {query.message.from_user.mention}** \n
+🔥 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝙰𝙻𝙻𝙾𝚆 𝚈𝙾𝚄 𝚃𝙾 𝙿𝙻𝙰𝚈 𝙼𝚄𝚂𝙸𝙲 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙾𝙿 𝙶𝚁𝙾𝚄𝙿 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 @DARKAMAN !**
 
-❓ **𝙵𝙾𝚁 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 𝙰𝙱𝙾𝚄𝚃 𝙰𝙻𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴.., 𝙹𝚄𝚂𝚃 𝚃𝚈𝙿𝙴 /help**
+⚡ **𝙵𝙾𝚁 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 𝙰𝙱𝙾𝚄𝚃 𝙰𝙻𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴.., 𝙹𝚄𝚂𝚃 𝚃𝚈𝙿𝙴 /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
