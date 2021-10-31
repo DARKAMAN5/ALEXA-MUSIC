@@ -41,25 +41,25 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "ǟɖɖ ʍɛ ȶօ ʏօʊʀ ɢʀօʊք", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "♨️ǟɖɖ ʍɛ ȶօ ʏօʊʀ ɢʀօʊք♨️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "ɦօա ȶօ ʊֆɛ ʍɛ", callback_data="cbhowtouse")
+                        "✨ɦօա ȶօ ʊֆɛ ʍɛ✨", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "ƈօʍʍǟռɖֆ", callback_data="cbcmds"
+                         "🥳ƈօʍʍǟռɖֆ🥳", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "ƈʀɛǟȶɛʀ", url=f"https://t.me/{OWNER_NAME}")
+                        "☣️ƈʀɛǟȶɛʀ☣️", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "ֆʊքքօʀȶ ɢʀօʊք", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🥰ֆʊքքօʀȶ ɢʀօʊք🥰", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "ʊքɖǟȶɛֆ ƈɦǟռռɛʟ", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "🇮🇳ʊքɖǟȶɛֆ ƈɦǟռռɛʟ🇮🇳", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "ǟʟɛӼǟ ʀօɮօȶ", url="https://github.com/levina-lab/veezmusic/wiki/Veez-Music-Wiki'")
+                        "🖱️ǟʟɛӼǟ ʀօɮօȶ🖱️", url="https://t.me/ALEXA_MANAGER_ROBOT")
                     )
                 ]
             ]
@@ -79,10 +79,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ֆʊքքօʀȶ ɢʀօʊք", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🖱️ֆʊքքօʀȶ ɢʀօʊք🖱️", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "ʊքɖǟȶɛֆ ƈɦǟռռɛʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🇮🇳ʊքɖǟȶɛֆ ƈɦǟռռɛʟ🇮🇳", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
             ]
@@ -92,7 +92,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>👋🏻 **Hello** {message.from_user.mention()}</b>
+        f"""<b>👋🏻 **𝙷𝙴𝙻𝙻𝙾** {message.from_user.mention()}</b>
 
 **Please press the button below to read the explanation and see the list of available commands !**
 
@@ -101,7 +101,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="ɦօա ȶօ ʊֆɛ ʍɛ", callback_data="cbguide"
+                        text="🖱️ɦօա ȶօ ʊֆɛ ʍɛ🖱️", callback_data="cbguide"
                     )
                 ]
             ]
@@ -120,28 +120,28 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ɮǟֆɨƈ ƈʍɖ", callback_data="cbbasic"
+                        "♨️ɮǟֆɨƈ ƈʍɖ♨️", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "ǟɖʋǟռƈɛֆ ƈʍɖ", callback_data="cbadvanced"
+                        "✨ǟɖʋǟռƈɛֆ ƈʍɖ✨", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ǟɖʍɨռ ƈʍɖ", callback_data="cbadmin"
+                        "🥳ǟɖʍɨռ ƈʍɖ🥳", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "ֆʊɖօ ƈʍɖ", callback_data="cbsudo"
+                        "🥰ֆʊɖօ ƈʍɖ🥰", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "օառɛʀ ƈʍɖ", callback_data="cbowner"
+                        "☣️օառɛʀ ƈʍɖ☣️", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ƒʊռ ƈʍɖ", callback_data="cbfun"
+                        "🖱️ƒʊռ ƈʍɖ🖱️", callback_data="cbfun"
                     )
                 ]
             ]
@@ -155,7 +155,7 @@ async def ping_pong(client: Client, message: Message):
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        "🏓 `քɨռɢ!!`\n"
+        "🔥 `քɨռɢ!!`\n"
         f"⚡️ `{delta_ping * 1000:.3f} ms`"
     )
 
