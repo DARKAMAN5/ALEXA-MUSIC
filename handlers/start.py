@@ -31,11 +31,12 @@ async def _human_time_duration(seconds):
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
+    await message.reply_photo("https://te.legra.ph/file/f25a47b16c4c0d19a580b.jpg")
     await message.reply_text(
-        f"""<b>✨ **Welcome {message.from_user.first_name}** \n
-🔥 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝙰𝙻𝙻𝙾𝚆 𝚈𝙾𝚄 𝚃𝙾 𝙾𝙻𝙰𝚈 𝙼𝚄𝚂𝙸𝙲 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙾𝙿 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙳𝙴 𝙱𝚈 @DARKAMAN !**
+        f"""<b>✨ **𝚆𝙴𝙻𝙲𝙾𝙼𝙴 {message.from_user.first_name}** \n
+🔥 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) 𝙰𝙻𝙻𝙾𝚆 𝚈𝙾𝚄 𝚃𝙾 𝙿𝙻𝙰𝚈 𝙼𝚄𝚂𝙸𝙲 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙾𝙿 𝙶𝚁𝙾𝚄𝙿 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 @DARKAMAN !**
 
-⚡ **𝙵𝙾𝚁 𝙸𝙽𝙵𝙾 𝙰𝙱𝙾𝚄𝚃 𝙰𝙻𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴... 𝙹𝚄𝚂𝚃 𝚃𝚈𝙿𝙴 /help**
+⚡ **𝙵𝙾𝚁 𝙸𝙽𝙵𝙾 𝙰𝙱𝙾𝚄𝚃 𝙰𝙻𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴.. 𝙹𝚄𝚂𝚃 𝚃𝚈𝙿𝙴 /help**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
@@ -73,8 +74,9 @@ async def start(client: Client, message: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
+    await message.reply_photo("https://te.legra.ph/file/f25a47b16c4c0d19a580b.jpg")
     await message.reply_text(
-        f"""✅ **bot is running**\n<b>💠 **uptime:**</b> `{uptime}`""",
+        f"""✅ **bot is running**\n<b>⚡ **uptime:**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -91,6 +93,7 @@ async def start(client: Client, message: Message):
 
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
+    await message.reply_photo("https://te.legra.ph/file/f25a47b16c4c0d19a580b.jpg")
     await message.reply_text(
         f"""<b>👋🏻 **𝙷𝙴𝙻𝙻𝙾** {message.from_user.mention()}</b>
 
@@ -110,6 +113,7 @@ async def help(client: Client, message: Message):
 
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def help_(client: Client, message: Message):
+    await message.reply_photo("https://te.legra.ph/file/f25a47b16c4c0d19a580b.jpg")
     await message.reply_text(
         f"""<b>💡 Hello {message.from_user.mention} welcome to the help menu !</b>
 
